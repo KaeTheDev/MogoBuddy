@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.get("/", function(req, res) {
-    res.send("Hello PORT 5000!")
+    res.send("Hello KaeTheDev!")
 });
 
 //DB Config

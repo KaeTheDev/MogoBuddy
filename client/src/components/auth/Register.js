@@ -67,7 +67,7 @@ class Register extends Component {
                             </div>
 
                             <div className = "input-field col s12">
-                                <input onChange = {this.onChange} value = {this.state.password}
+                                <input onChange = {this.onChange} value = {this.state.password2}
                                 error = {errors.password2} id = "password2" type = "password" />
                                 <label htmlFor="password2">Confirm Password</label>
                             </div>

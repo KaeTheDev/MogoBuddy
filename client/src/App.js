@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <h1>Hello KAETHEDEV KEEP GOING!</h1>
+      <Navbar/>
+      <Landing/>
     </div>
   );
 }
